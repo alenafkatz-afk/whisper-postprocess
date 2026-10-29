@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Результаты работы (не коммитим)
+results/*
+!results/.gitkeep
+
+# Аудио и видео (большие файлы)
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+*.mp4
+*.zip
+*.tar.gz
+
+# Временные документы
+*.docx
+!data/*.docx
+~$*.docx
+
+# Настройки IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Игнорируем всё аудио и все txt, кроме одного примера
+data/*.mp3
+data/*.MP3
+data/*.wma
+data/*.WMA
+data/*.wav
+data/txt_raw/*.txt
+
+!data/Pyat_22_22.MP3
+!data/txt_raw/Pyat_22_22.txt
